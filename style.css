@@ -58,7 +58,7 @@ body.dark{
 section {
 
     display: block;
-    padding: 0 30px;
+    /* padding: 0 30px; */
     opacity: 1;
 }
 .hidden {
@@ -298,6 +298,7 @@ section{
 }
 .home-container {
   height: 100%;
+  width: 100%;
 }
 .home-row {
   display: flex;
@@ -405,8 +406,8 @@ h3.my-profession {
 
 /* ------------section container------------ */
 .about-section .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section-title {
@@ -607,6 +608,7 @@ h3.my-profession {
   margin-left: 5px;
 }
 .about-section .about-content .timeline .timeline-title {
+  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
@@ -688,18 +690,10 @@ h3.my-profession {
   line-height: 25px;
 }
 .service .container {
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /*  ---------------portfolio---------- */
-.portfolio .section-title {
-  margin-bottom: 60px;
-}
-
-
-
-.service .container{
-  padding: 0 0 0 30px;
-}
 
 
 .service .service-item .service-item-inner {
@@ -749,15 +743,7 @@ h3.my-profession {
   color: var(--text-black-700);
   line-height: 25px;
 }
-.service .container {
-  padding-bottom: 40px;
-}
 
-
-
-.service .container{
-  padding-top: 60px;
-}
 
 
 .service .service-item .service-item-inner {
@@ -807,12 +793,10 @@ h3.my-profession {
   color: var(--text-black-700);
   line-height: 25px;
 }
-.service .container {
-  padding-bottom: 40px;
-}
+
 /*  ---------------portfolio---------- */
 .portfolio .section-title {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .portfolio .section-title h2 {
   color: var(--text-black-900);
@@ -826,14 +810,7 @@ h3.my-profession {
   font-weight: 500;
   /* margin-bottom: 20px; */
 }
-.portfolio .container {
-  padding-top: 60px;
-}
-/* .portfolio .portfolio-item{
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
-  margin-bottom: 30px;
-} */
+
 .row-main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -860,7 +837,7 @@ h3.my-profession {
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
-  display: block;
+  /* display: block; */
 }
 /* ---------Contact ------- */
 .contact-title {
@@ -883,9 +860,15 @@ h3.my-profession {
   grid-template-columns: repeat(4,1fr);
  
 }
+/* .contact .container .row-row {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+} */
+
 .contact .contact-info-item {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .contact .contact-info-item .icon {
   display: inline-block;
@@ -1025,11 +1008,7 @@ h3.my-profession {
   .row-main {
       grid-template-columns: repeat(2,1fr); /* Change to two columns for smaller screens */
   }
-  /* .portfolio .portfolio-item, */
-  /* .service .service-item{
-      flex: 0 0 50%;
-      max-width: 50%;
-  } */
+
 
   .home-section .home-img {
       display: none;
@@ -1061,11 +1040,6 @@ h3.my-profession {
       display: flex;
       align-items: center;
       justify-content: center;
-  }
-  .contact .container .row-row {
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-
   }
 
 }
