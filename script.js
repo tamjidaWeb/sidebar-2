@@ -75,3 +75,25 @@ window.addEventListener("load", () => {
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 });
+
+
+
+
+function showThankYouModal() {  
+    // Show an alert when the message is sent  
+    alert("Registration completed! Thank you for your message.");  
+}  
+// function showThankYouModal() {  
+//     // Get the email input value  
+//     const email = document.getElementById('email').value;  
+
+//     // Basic email format validation  
+//     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;  
+
+//     if (!emailPattern.test(email)) {  
+//         alert("Please enter a valid email address.");  
+//     } else {  
+//         alert("Registration completed! Thank you for your message.");  
+//         // You could also handle form submission here  
+//     }  
+// }  

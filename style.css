@@ -80,7 +80,7 @@ section {
 }
 body{
     position: relative;
-      background: linear-gradient(#F1FAFF, #CBE4FF);
+      background: #F1FAFF;
       min-height: 100vh;
       width: 100%;
       overflow-x: hidden;
@@ -203,7 +203,7 @@ body{
    
   }
   .sidebar.collapsed .profile-content a{
-    /* opacity: 1; */
+    opacity: 1;
   
   }
   .sidebar .profile-content a:hover{
@@ -407,7 +407,7 @@ h3.my-profession {
 /* ------------section container------------ */
 .about-section .container {
   padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .section-title {
@@ -638,7 +638,7 @@ h3.my-profession {
 
 
 .service {
-  padding: 20px 0 0 40px;
+  /* padding: 20px 0 0 40px; */
 }
 
 
@@ -678,12 +678,7 @@ h3.my-profession {
   color: #ffff;
   font-size: 25px;
 }
-.service .service-item .service-item-inner h4 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: 700;
-  color: var(--text-black-900);
-}
+
 .service .service-item .service-item-inner p {
   font-size: 16px;
   color: var(--text-black-700);
@@ -691,108 +686,10 @@ h3.my-profession {
 }
 .service .container {
   padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 /*  ---------------portfolio---------- */
 
-
-.service .service-item .service-item-inner {
-  background-color: var(--bg-black-100);
-  border-radius: 10px;
-  border: 1px solid var(--bg-black-50);
-  padding: 15px 10px;
-  text-align: center;
-  transition: all 0.3s ease;
-
-}
-
-
-.service .service-item .service-item-inner:hover {
-  box-shadow: 0 0 20px rgba(48, 77, 48, 0.15);
-}
-.service .service-item .service-item-inner .icon {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 30px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-.service .service-item .service-item-inner .icon .fa {
-  font-size: 30px;
-  line-height: 60px;
-  color: var(--skin-color);
-  transition: all 0.3s ease;
-}
-.service .service-item .service-item-inner:hover .icon {
-  background: var(--skin-color);
-}
-.service .service-item .service-item-inner:hover .icon .fa {
-  color: #ffff;
-  font-size: 25px;
-}
-.service .service-item .service-item-inner h4 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: 700;
-  color: var(--text-black-900);
-}
-.service .service-item .service-item-inner p {
-  font-size: 16px;
-  color: var(--text-black-700);
-  line-height: 25px;
-}
-
-
-
-.service .service-item .service-item-inner {
-  background-color: var(--bg-black-100);
-  border-radius: 10px;
-  border: 1px solid var(--bg-black-50);
-  padding: 15px 10px;
-  text-align: center;
-  transition: all 0.3s ease;
-  
-}
-
-
-.service .service-item .service-item-inner:hover {
-  box-shadow: 0 0 20px rgba(48, 77, 48, 0.15);
-}
-.service .service-item .service-item-inner .icon {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 30px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-.service .service-item .service-item-inner .icon .fa {
-  font-size: 30px;
-  line-height: 60px;
-  color: var(--skin-color);
-  transition: all 0.3s ease;
-}
-.service .service-item .service-item-inner:hover .icon {
-  background: var(--skin-color);
-}
-.service .service-item .service-item-inner:hover .icon .fa {
-  color: #ffff;
-  font-size: 25px;
-}
-.service .service-item .service-item-inner h4 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: 700;
-  color: var(--text-black-900);
-}
-.service .service-item .service-item-inner p {
-  font-size: 16px;
-  color: var(--text-black-700);
-  line-height: 25px;
-}
 
 /*  ---------------portfolio---------- */
 .portfolio .section-title {
@@ -847,7 +744,7 @@ h3.my-profession {
   margin-bottom: 20px;
 }
 .contact {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 .contact-sub-title {
   color: var(--text-black-700);
@@ -897,7 +794,7 @@ h3.my-profession {
 .contact .contact-form {
   flex: 0 0 100%;
   max-width: 100%;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 .contact .contact-form .col-6 {
   flex: 0 0 50%;

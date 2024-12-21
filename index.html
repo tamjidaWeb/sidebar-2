@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<link rel="stylesheet" href="style.switcher.css">
+    <link rel="stylesheet" href="style.switcher.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -17,7 +18,7 @@
                 <i class='bx bxl-c-plus-plus'></i>
                 <div class="logo-name">CodingLab</div>
             </div>
-            <a href="#"> <i class="fa-solid fa-bars "  id="btn"></i></a>
+            <a href="#"> <i class="fa-solid fa-bars  ml-1"  id="btn"></i></a>
            
         </div>
     
@@ -27,9 +28,9 @@
         <li><a href="#services" class="nav-link"><i class="fa-solid fa-list"></i><span class="links-name">Services</span></a></li>
         <li><a href="#portfolio" class="nav-link"><i class="fa-solid fa-briefcase"></i><span class="links-name">Portfolio</span></a></li>
         <li><a href="#contact"class="nav-link"><i class="fa-solid fa-address-book"></i><span class="links-name">Contact</span></a></li>
-        <li><a href="#portfolio" class="nav-link"><i class="fa-solid fa-briefcase"></i><span class="links-name">Portfolio</span></a></li>
+        <!-- <li><a href="#portfolio" class="nav-link"><i class="fa-solid fa-briefcase"></i><span class="links-name">Portfolio</span></a></li> -->
     </ul>
-    <div class="profile-content">
+    <div class="profile-content col">
         <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
@@ -41,14 +42,14 @@
     <!-- home section start -->
      <section class="home-section" id="home">
           <div class="container home-container">
-                <div class="row home-row">
-                      <div class="home-info padd-15">
+                <div class="flex home-row ">
+                      <div class="home-info padd-15  w-2/3">
                             <h3 class="hello">Hello, My name is <span class="name"> </span></h3>
                             <h3 class="my-profession">I'm a <span class="text"></span></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem ratione iste id deleniti vitae itaque ullam, a maiores reiciendis.</p>
                             <a href="#about" class="btn">More about Me</a>
                       </div>
-                      <div class="home-img padd-15">
+                      <div class="home-img padd-15 w-1/3">
                             <img src="images/me.jpeg" alt="">
                       </div>
                 </div>
@@ -417,7 +418,7 @@
                </div>
                <h3 class="contact-title padd-15">Have you any question ?</h3>
                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-               <div class="row-row ">
+               <div class="gap-2 grid lg:grid-cols-4 md:grid-cols-2">
                 <!-- contact info item start-->
                  <div class="contact-info-item padd-15">
                       <div class="icon"><i class="fa fa-phone"></i></div>
@@ -453,31 +454,33 @@
 
                <!-- contact form  -->
                <div class="row">  
-                <div class="contact-form">  
-                    <div class="row-flex">  
-                        <div class="form-item col-6 padd-15">  
-                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>  
+                  <div class="contact-form">  
+                        <div class="row-flex">  
+                            <div class="form-item col-6 padd-15 ">  
+                                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>  
+                            </div>  
+                            <div class="form-item col-6 padd-15">  
+                                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>  
+                            </div>  
                         </div>  
-                        <div class="form-item col-6 padd-15">  
-                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>  
+                        <div class="row">  
+                            <div class="form-item col-12 padd-15 ">  
+                                <input type="text" id="subject" class="form-control" placeholder="Enter your subject" required>  
+                            </div>  
+                        </div>  
+                        <div class="row">  
+                            <div class="form-item col-12 padd-15">  
+                                <textarea id="message" class="form-control" placeholder="Write your Message" required></textarea>  
+                            </div>  
+                        </div>  
+                        <div class="row">  
+                            <div class="form-item col-12 padd-15">  
+                                <button type="button" class="btn" onclick="showThankYouModal()">Send Message</button>  
+                            </div>  
                         </div>  
                     </div>  
-                    <div class="row">  
-                        <div class="form-item col-12 padd-15">  
-                            <input type="text" id="subject" class="form-control" placeholder="Enter your subject" required>  
-                        </div>  
-                    </div>  
-                    <div class="row">  
-                        <div class="form-item col-12 padd-15">  
-                            <textarea id="message" class="form-control" placeholder="Write your Message" required></textarea>  
-                        </div>  
-                    </div>  
-                    <div class="row">  
-                        <div class="form-item col-12 padd-15">  
-                            <button type="button" class="btn" onclick="showThankYouModal()">Send Message</button>  
-                        </div>  
-                    </div>  
-                </div>  
+                    
+                   
             </div>  
            
           <!-- contact form end -->
