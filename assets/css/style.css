@@ -335,7 +335,7 @@ h3.my-profession {
   margin-bottom: 70px;
   /* letter-spacing: 1px; */
   font-size: 20px;
-  color: var(--text-black-700);
+  /* color: var(--text-black-700); */
 }
 .btn {
   font-size: 18px;
