@@ -738,7 +738,7 @@ h3.my-profession {
 }
 /* ---------Contact ------- */
 .contact-title {
-  color: var(--skin-color);
+  color: var(--text-black-900);
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
@@ -772,11 +772,11 @@ h3.my-profession {
 }
 .contact .contact-info-item .icon .fa {
   font-size: 25px;
-  color: var(--skin-color);
+  color: var(--text-black-700);
 }
 .contact .contact-info-item .icon .fa-brands{
   font-size: 25px;
-  color: var(--skin-color);
+  color: var(--text-black-700);
 }
 
 .contact .contact-info-item h4 {
