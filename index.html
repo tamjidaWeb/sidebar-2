@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <link rel="stylesheet" href="style.switcher.css">
+    <link rel="stylesheet" href="assets/css/style.switcher.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -30,10 +32,10 @@
         <li><a href="#contact"class="nav-link"><i class="fa-solid fa-address-book"></i><span class="links-name">Contact</span></a></li>
         <!-- <li><a href="#portfolio" class="nav-link"><i class="fa-solid fa-briefcase"></i><span class="links-name">Portfolio</span></a></li> -->
     </ul>
-    <div class="profile-content col">
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <div class="profile-content  col">
+        <a href="https://www.facebook.com/" class="mr-4" target="_blank"><i class="fa-brands fa-facebook "></i></a>
+        <a href="https://www.linkedin.com/" class="mr-4" target="_blank"><i class="fa-brands fa-linkedin "></i></a>
+        <a href="https://web.whatsapp.com/" class="mr-4" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
 </aside>
 
@@ -44,13 +46,13 @@
           <div class="container home-container">
                 <div class="flex home-row ">
                       <div class="home-info padd-15  w-2/3">
-                            <h3 class="hello">Hello, My name is <span class="name"> </span></h3>
+                            <h3 class="hello text-6xl font-bold">Hello, My name is <span class="name"> </span></h3>
                             <h3 class="my-profession">I'm a <span class="text"></span></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem ratione iste id deleniti vitae itaque ullam, a maiores reiciendis.</p>
                             <a href="#about" class="btn">More about Me</a>
                       </div>
                       <div class="home-img padd-15 w-1/3">
-                            <img src="images/me.jpeg" alt="">
+                            <img src="assets/images/me.jpeg" alt="">
                       </div>
                 </div>
  
@@ -347,12 +349,12 @@
                 <h2>My last projects:</h2>
           </div>
     </div>
-    <div class="row-main padd-15">
+    <div class=" grid lg:grid-cols-3 md:grid-cols-2 gap-14 padd-15">
           <!-- portfolio Item start -->
            <div class="portfolio-item">
                 <div class="portfolio-item-inner shadow-dark">
                       <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-1.jpg" alt="">
+                            <img src="assets/images/portfolio/portfolio-1.jpg" alt="">
                       </div>
                 </div>
            </div>
@@ -361,7 +363,7 @@
            <div class="portfolio-item">
                 <div class="portfolio-item-inner shadow-dark">
                       <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-2.jpg" alt="">
+                            <img src="assets/images/portfolio/portfolio-2.jpg" alt="">
                       </div>
                 </div>
            </div>
@@ -370,7 +372,7 @@
            <div class="portfolio-item">
                 <div class="portfolio-item-inner shadow-dark">
                       <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-3.jpg" alt="">
+                            <img src="assets/images/portfolio/portfolio-3.jpg" alt="">
                       </div>
                 </div>
            </div>
@@ -379,7 +381,7 @@
            <div class="portfolio-item">
                 <div class="portfolio-item-inner shadow-dark">
                       <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-4.jpg" alt="">
+                            <img src="assets/images/portfolio/portfolio-4.jpg" alt="">
                       </div>
                 </div>
            </div>
@@ -388,7 +390,7 @@
            <div class="portfolio-item">
                 <div class="portfolio-item-inner shadow-dark">
                       <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-5.jpg" alt="">
+                            <img src="assets/images/portfolio/portfolio-5.jpg" alt="">
                       </div>
                 </div>
            </div>
@@ -397,7 +399,7 @@
           <div class="portfolio-item">
                 <div class="portfolio-item-inner shadow-dark">
                       <div class="portfolio-img">
-                            <img src="images/portfolio/portfolio-6.jpg" alt="">
+                            <img src="assets/images/portfolio/portfolio-6.jpg" alt="">
                       </div>
                 </div>
            </div>
@@ -464,7 +466,7 @@
                             </div>  
                         </div>  
                         <div class="row">  
-                            <div class="form-item col-12 padd-15 ">  
+                            <div class="form-item col-6 padd-15 ">  
                                 <input type="text" id="subject" class="form-control" placeholder="Enter your subject" required>  
                             </div>  
                         </div>  
@@ -504,15 +506,8 @@
 </div>
 
 
-<!-- style switcher end -->
 
-<!-- <script src="scripts/style-switcher.js"></script> -->
-<script src="assets/js/javascript.js"></script>
 <script src="assets/js/typed.js"></script>
-
-</body>
-</html>
-<script src="typed.js"></script>
-<script src="script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -21,7 +21,7 @@
       background: var(--bg-black-100);
       color: var(--text-black-900);
       right: 100% ;
-      border: 1px solid var(--text-black-900);
+      border: 1px solid #999;
       margin-right: 25px;
       cursor: pointer;
       transition: all 0.3s ease;
